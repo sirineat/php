@@ -22,7 +22,7 @@ if($result = $conn->query($sql)) {
 
 foreach ($Persons as $person) {
     echo "<br>";
-    echo $person->FirstName  ;
+    echo $person->FirstName;
     echo "<br>";
 }
 
